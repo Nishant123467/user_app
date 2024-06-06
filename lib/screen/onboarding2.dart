@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 import 'package:user_app/screen/onboarding1.dart';
 
 import 'package:user_app/screen/onboarding3.dart';
@@ -62,14 +63,21 @@ class onboarding2 extends StatelessWidget {
                 
                    SizedBox(height: 30),
                 
-                Container(
-                  width: 344,
-                  height: 344,
-                  child: Opacity(
-                    opacity: 1.0, // Set opacity to 1.0 to make the image visible
-                    child: Image.asset('assets/images/img2.png'),
-                  ),
+               Positioned(
+            top: 222,
+            left: 79,
+            child: SizedBox(
+              width: 300,
+              height: 300,
+              child: Opacity(
+                opacity: 1,
+                child: Lottie.asset(
+                  'animations/welcome.json',
+                  
                 ),
+              ),
+            ),
+          ),
                SizedBox(height: 10),
                  Container(
                   width: 218, // Width of the text container

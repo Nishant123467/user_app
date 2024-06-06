@@ -72,6 +72,10 @@ flutter:
     - assets/images/Facebook.png
     - assets/images/Google.png
     - assets/images/registerimg.png
+    - animations/succussful.json
+    - animations/failed.json
+    - animations/welcome.json
+    - assets/images/Users.png
 
   #   - images/a_dot_ham.jpeg
 
